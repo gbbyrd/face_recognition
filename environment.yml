@@ -1,0 +1,11 @@
+name: face_rec
+channels:
+- defaults
+dependencies:
+- python
+- pytorch
+- torchvision
+- pip=22.2.2
+- pip:
+  - facenet_pytorch
+  - opencv_python
